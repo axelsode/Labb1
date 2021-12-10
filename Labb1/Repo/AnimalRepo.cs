@@ -22,7 +22,7 @@ namespace Labb1.Repo
             return _animals;
         }
 
-        public Animal GetByID(Guid id)
+        public Animal GetByID(int id)
         {
             Animal animal = _animals.Find(x => x.Id == id);
             return animal;
@@ -36,32 +36,32 @@ namespace Labb1.Repo
             {
                 new Animal
                 {
-                    Id = Guid.NewGuid(),
-                    Animal="Frog",
+                    Id = 1,
+                    Animaltype="Frog",
                     Name="Bob"
                 },
                 new Animal
                 {
-                    Id = Guid.NewGuid(),
-                    Animal="Dog",
+                    Id = 2,
+                    Animaltype="Dog",
                     Name="Pelle"
                 },
                 new Animal
                 {
-                    Id = Guid.NewGuid(),
-                    Animal="Horse",
+                    Id = 3,
+                    Animaltype="Horse",
                     Name="Lillen"
                 },
                 new Animal
                 {
-                    Id = Guid.NewGuid(),
-                    Animal="Hamster",
+                    Id = 4,
+                    Animaltype="Hamster",
                     Name="Fred"
                 },
                 new Animal
                 {
-                    Id = Guid.NewGuid(),
-                    Animal="Octopus",
+                    Id = 5,
+                    Animaltype="Octopus",
                     Name="Peter"
                 }
 

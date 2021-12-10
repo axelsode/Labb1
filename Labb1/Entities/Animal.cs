@@ -8,7 +8,7 @@ namespace Labb1.Entities
 {
     public class Animal
     {
-        public Guid Id { get; set; }
+        public int Id { get; set; }
 
         public string Animaltype { get; set; }
 

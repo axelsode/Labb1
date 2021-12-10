@@ -11,6 +11,6 @@ namespace Labb1.Repo
     {
         List<Animal> GetAll();
 
-        Animal GetByID(Guid id);
+        Animal GetByID(int id);
     }
 }

@@ -32,8 +32,8 @@ namespace Labb1.Controllers
 
 
         //GET /api/animal/:id
-        [HttpGet]
-        [Route("{{id}}")]
+        [HttpGet("{id}")]
+        
         public Animal GetAnimalByID(Guid id)
         {
             return _repo.GetByID(id);
